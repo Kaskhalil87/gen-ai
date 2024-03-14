@@ -8,7 +8,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 
       <MobileNav />
       <div className="root-container">
-        {/* <div className="wrapper">{children}</div> */}
+        <div className="wrapper">{children}</div>
       </div>
     </main>
   );
